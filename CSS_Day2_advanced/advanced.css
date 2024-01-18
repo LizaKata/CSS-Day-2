@@ -59,6 +59,9 @@ body {
 /* Hero section */
 
 .hero-section {
+  /* background-image: url(capsules.png); */
+  overflow: hidden;
+  position: relative;
   display: flex;
   padding: 5.6rem 8.6rem 5.6rem 4.8rem;
   /* margin-bottom: 5em; */
@@ -68,11 +71,24 @@ body {
   background-color: #f0f0f0;
 }
 
+.capsules-img {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  opacity: 2%;
+  filter: grayscale(100%);
+}
+
 .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: space-evenly;
+  z-index: 1;
 }
 
 .img-right {
@@ -119,7 +135,7 @@ body {
 
 .info-section p {
   font-size: 1.4rem;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 /* Form section */
