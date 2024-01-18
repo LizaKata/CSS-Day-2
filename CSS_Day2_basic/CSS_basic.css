@@ -1,0 +1,72 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 62.5% is like 10px */
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Happy Monkey", system-ui;
+  /* line-height: 1; */
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.container {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  width: 80rem;
+  margin: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+p,
+li {
+  color: #707070;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #db0038;
+}
+
+h2 {
+  color: #3998a3;
+}
+
+h3 {
+  color: #474747;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+li {
+  padding-top: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+span {
+  color: #f4b400;
+  font-size: 2.5rem;
+}
+
+footer {
+  text-align: center;
+}
