@@ -41,7 +41,7 @@ body {
 }
 
 .main-nav-link {
-  display: inline-block;
+  /* display: inline-block; */
   text-decoration: none;
   color: #333;
   font-weight: 500;
@@ -203,4 +203,5 @@ body {
 
 .copyright p {
   padding-bottom: 2rem;
+  justify-content: ;
 }
